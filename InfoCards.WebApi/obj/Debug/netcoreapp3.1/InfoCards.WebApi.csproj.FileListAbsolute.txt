@@ -1,0 +1,114 @@
+C:\Users\Furer\Desktop\Texode Task1\InfoCards.WebApi\InfoCards.WebApi\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\Furer\Desktop\Texode Task1\InfoCards.WebApi\InfoCards.WebApi\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\Furer\Desktop\Texode Task1\InfoCards.WebApi\InfoCards.WebApi\bin\Debug\netcoreapp3.1\InfoCards.WebApi.exe
+C:\Users\Furer\Desktop\Texode Task1\InfoCards.WebApi\InfoCards.WebApi\bin\Debug\netcoreapp3.1\InfoCards.WebApi.deps.json
+C:\Users\Furer\Desktop\Texode Task1\InfoCards.WebApi\InfoCards.WebApi\bin\Debug\netcoreapp3.1\InfoCards.WebApi.runtimeconfig.json
+C:\Users\Furer\Desktop\Texode Task1\InfoCards.WebApi\InfoCards.WebApi\bin\Debug\netcoreapp3.1\InfoCards.WebApi.runtimeconfig.dev.json
+C:\Users\Furer\Desktop\Texode Task1\InfoCards.WebApi\InfoCards.WebApi\bin\Debug\netcoreapp3.1\InfoCards.WebApi.dll
+C:\Users\Furer\Desktop\Texode Task1\InfoCards.WebApi\InfoCards.WebApi\bin\Debug\netcoreapp3.1\InfoCards.WebApi.pdb
+C:\Users\Furer\Desktop\Texode Task1\InfoCards.WebApi\InfoCards.WebApi\bin\Debug\netcoreapp3.1\MediatR.dll
+C:\Users\Furer\Desktop\Texode Task1\InfoCards.WebApi\InfoCards.WebApi\bin\Debug\netcoreapp3.1\MediatR.Contracts.dll
+C:\Users\Furer\Desktop\Texode Task1\InfoCards.WebApi\InfoCards.WebApi\bin\Debug\netcoreapp3.1\MediatR.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\Furer\Desktop\Texode Task1\InfoCards.WebApi\InfoCards.WebApi\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Furer\Desktop\Texode Task1\InfoCards.WebApi\InfoCards.WebApi\obj\Debug\netcoreapp3.1\InfoCards.WebApi.csproj.AssemblyReference.cache
+C:\Users\Furer\Desktop\Texode Task1\InfoCards.WebApi\InfoCards.WebApi\obj\Debug\netcoreapp3.1\InfoCards.WebApi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Furer\Desktop\Texode Task1\InfoCards.WebApi\InfoCards.WebApi\obj\Debug\netcoreapp3.1\InfoCards.WebApi.AssemblyInfoInputs.cache
+C:\Users\Furer\Desktop\Texode Task1\InfoCards.WebApi\InfoCards.WebApi\obj\Debug\netcoreapp3.1\InfoCards.WebApi.AssemblyInfo.cs
+C:\Users\Furer\Desktop\Texode Task1\InfoCards.WebApi\InfoCards.WebApi\obj\Debug\netcoreapp3.1\InfoCards.WebApi.csproj.CoreCompileInputs.cache
+C:\Users\Furer\Desktop\Texode Task1\InfoCards.WebApi\InfoCards.WebApi\obj\Debug\netcoreapp3.1\InfoCards.WebApi.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Furer\Desktop\Texode Task1\InfoCards.WebApi\InfoCards.WebApi\obj\Debug\netcoreapp3.1\staticwebassets\InfoCards.WebApi.StaticWebAssets.Manifest.cache
+C:\Users\Furer\Desktop\Texode Task1\InfoCards.WebApi\InfoCards.WebApi\obj\Debug\netcoreapp3.1\staticwebassets\InfoCards.WebApi.StaticWebAssets.xml
+C:\Users\Furer\Desktop\Texode Task1\InfoCards.WebApi\InfoCards.WebApi\obj\Debug\netcoreapp3.1\scopedcss\bundle\InfoCards.WebApi.styles.css
+C:\Users\Furer\Desktop\Texode Task1\InfoCards.WebApi\InfoCards.WebApi\obj\Debug\netcoreapp3.1\InfoCards.WebApi.RazorTargetAssemblyInfo.cache
+C:\Users\Furer\Desktop\Texode Task1\InfoCards.WebApi\InfoCards.WebApi\obj\Debug\netcoreapp3.1\InfoCards.WebApi.csproj.CopyComplete
+C:\Users\Furer\Desktop\Texode Task1\InfoCards.WebApi\InfoCards.WebApi\obj\Debug\netcoreapp3.1\InfoCards.WebApi.dll
+C:\Users\Furer\Desktop\Texode Task1\InfoCards.WebApi\InfoCards.WebApi\obj\Debug\netcoreapp3.1\InfoCards.WebApi.pdb
+C:\Users\Furer\Desktop\Texode Task1\InfoCards.WebApi\InfoCards.WebApi\obj\Debug\netcoreapp3.1\InfoCards.WebApi.genruntimeconfig.cache
+C:\Users\Furer\Desktop\Texode Task1\InfoCards.WebApi\InfoCards.WebApi\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+C:\Users\Furer\Desktop\Texode Task1\InfoCards.WebApi\InfoCards.WebApi\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Furer\Desktop\Texode Task1\InfoCards.WebApi\InfoCards.WebApi\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Furer\Desktop\Texode Task1\InfoCards.WebApi\InfoCards.WebApi\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Furer\Desktop\Texode Task1\InfoCards.WebApi\InfoCards.WebApi\obj\Debug\netcoreapp3.1\InfoCards.WebApi.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Furer\Desktop\Texode Task1\InfoCards.WebApi\InfoCards.WebApi\bin\Debug\netcoreapp3.1\AutoMapper.dll
+C:\Users\Furer\Desktop\Texode Task1\InfoCards.WebApi\InfoCards.WebApi\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\Furer\Desktop\Texode Task1\InfoCards.WebApi\InfoCards.WebApi\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\Furer\Desktop\Texode Task1\InfoCards.WebApi\InfoCards.WebApi\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\Furer\Desktop\Texode Task1\InfoCards.WebApi\InfoCards.WebApi\bin\Debug\netcoreapp3.1\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Furer\Desktop\Texode Task1\InfoCards.WebApi\InfoCards.WebApi\bin\Debug\netcoreapp3.1\InfoCards.Api.Contract.dll
+C:\Users\Furer\Desktop\Texode Task1\InfoCards.WebApi\InfoCards.WebApi\bin\Debug\netcoreapp3.1\InfoCards.Api.Contract.pdb
+c:\Users\Furer\Desktop\666\InfoCards.WebApi\bin\Debug\netcoreapp3.1\appsettings.Development.json
+c:\Users\Furer\Desktop\666\InfoCards.WebApi\bin\Debug\netcoreapp3.1\appsettings.json
+c:\Users\Furer\Desktop\666\InfoCards.WebApi\bin\Debug\netcoreapp3.1\InfoCards.WebApi.exe
+c:\Users\Furer\Desktop\666\InfoCards.WebApi\bin\Debug\netcoreapp3.1\InfoCards.WebApi.deps.json
+c:\Users\Furer\Desktop\666\InfoCards.WebApi\bin\Debug\netcoreapp3.1\InfoCards.WebApi.runtimeconfig.json
+c:\Users\Furer\Desktop\666\InfoCards.WebApi\bin\Debug\netcoreapp3.1\InfoCards.WebApi.runtimeconfig.dev.json
+c:\Users\Furer\Desktop\666\InfoCards.WebApi\bin\Debug\netcoreapp3.1\InfoCards.WebApi.dll
+c:\Users\Furer\Desktop\666\InfoCards.WebApi\bin\Debug\netcoreapp3.1\InfoCards.WebApi.pdb
+c:\Users\Furer\Desktop\666\InfoCards.WebApi\bin\Debug\netcoreapp3.1\AutoMapper.dll
+c:\Users\Furer\Desktop\666\InfoCards.WebApi\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+c:\Users\Furer\Desktop\666\InfoCards.WebApi\bin\Debug\netcoreapp3.1\MediatR.dll
+c:\Users\Furer\Desktop\666\InfoCards.WebApi\bin\Debug\netcoreapp3.1\MediatR.Contracts.dll
+c:\Users\Furer\Desktop\666\InfoCards.WebApi\bin\Debug\netcoreapp3.1\MediatR.Extensions.Microsoft.DependencyInjection.dll
+c:\Users\Furer\Desktop\666\InfoCards.WebApi\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+c:\Users\Furer\Desktop\666\InfoCards.WebApi\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+c:\Users\Furer\Desktop\666\InfoCards.WebApi\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+c:\Users\Furer\Desktop\666\InfoCards.WebApi\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+c:\Users\Furer\Desktop\666\InfoCards.WebApi\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+c:\Users\Furer\Desktop\666\InfoCards.WebApi\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+c:\Users\Furer\Desktop\666\InfoCards.WebApi\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+c:\Users\Furer\Desktop\666\InfoCards.WebApi\bin\Debug\netcoreapp3.1\System.Runtime.CompilerServices.Unsafe.dll
+c:\Users\Furer\Desktop\666\InfoCards.WebApi\bin\Debug\netcoreapp3.1\InfoCards.Api.Contract.dll
+c:\Users\Furer\Desktop\666\InfoCards.WebApi\bin\Debug\netcoreapp3.1\InfoCards.Api.Contract.pdb
+c:\Users\Furer\Desktop\666\InfoCards.WebApi\obj\Debug\netcoreapp3.1\InfoCards.WebApi.csproj.AssemblyReference.cache
+c:\Users\Furer\Desktop\666\InfoCards.WebApi\obj\Debug\netcoreapp3.1\InfoCards.WebApi.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\Furer\Desktop\666\InfoCards.WebApi\obj\Debug\netcoreapp3.1\InfoCards.WebApi.AssemblyInfoInputs.cache
+c:\Users\Furer\Desktop\666\InfoCards.WebApi\obj\Debug\netcoreapp3.1\InfoCards.WebApi.AssemblyInfo.cs
+c:\Users\Furer\Desktop\666\InfoCards.WebApi\obj\Debug\netcoreapp3.1\InfoCards.WebApi.csproj.CoreCompileInputs.cache
+c:\Users\Furer\Desktop\666\InfoCards.WebApi\obj\Debug\netcoreapp3.1\InfoCards.WebApi.MvcApplicationPartsAssemblyInfo.cs
+c:\Users\Furer\Desktop\666\InfoCards.WebApi\obj\Debug\netcoreapp3.1\InfoCards.WebApi.MvcApplicationPartsAssemblyInfo.cache
+c:\Users\Furer\Desktop\666\InfoCards.WebApi\obj\Debug\netcoreapp3.1\staticwebassets\InfoCards.WebApi.StaticWebAssets.Manifest.cache
+c:\Users\Furer\Desktop\666\InfoCards.WebApi\obj\Debug\netcoreapp3.1\staticwebassets\InfoCards.WebApi.StaticWebAssets.xml
+c:\Users\Furer\Desktop\666\InfoCards.WebApi\obj\Debug\netcoreapp3.1\scopedcss\bundle\InfoCards.WebApi.styles.css
+c:\Users\Furer\Desktop\666\InfoCards.WebApi\obj\Debug\netcoreapp3.1\InfoCards.WebApi.RazorTargetAssemblyInfo.cache
+c:\Users\Furer\Desktop\666\InfoCards.WebApi\obj\Debug\netcoreapp3.1\InfoCards.WebApi.csproj.CopyComplete
+c:\Users\Furer\Desktop\666\InfoCards.WebApi\obj\Debug\netcoreapp3.1\InfoCards.WebApi.dll
+c:\Users\Furer\Desktop\666\InfoCards.WebApi\obj\Debug\netcoreapp3.1\InfoCards.WebApi.pdb
+c:\Users\Furer\Desktop\666\InfoCards.WebApi\obj\Debug\netcoreapp3.1\InfoCards.WebApi.genruntimeconfig.cache
+C:\Users\Furer\Desktop\Texode Task1\InfoCards.WebApi\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\Furer\Desktop\Texode Task1\InfoCards.WebApi\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\Furer\Desktop\Texode Task1\InfoCards.WebApi\bin\Debug\netcoreapp3.1\InfoCards.WebApi.exe
+C:\Users\Furer\Desktop\Texode Task1\InfoCards.WebApi\bin\Debug\netcoreapp3.1\InfoCards.WebApi.deps.json
+C:\Users\Furer\Desktop\Texode Task1\InfoCards.WebApi\bin\Debug\netcoreapp3.1\InfoCards.WebApi.runtimeconfig.json
+C:\Users\Furer\Desktop\Texode Task1\InfoCards.WebApi\bin\Debug\netcoreapp3.1\InfoCards.WebApi.runtimeconfig.dev.json
+C:\Users\Furer\Desktop\Texode Task1\InfoCards.WebApi\bin\Debug\netcoreapp3.1\InfoCards.WebApi.dll
+C:\Users\Furer\Desktop\Texode Task1\InfoCards.WebApi\bin\Debug\netcoreapp3.1\InfoCards.WebApi.pdb
+C:\Users\Furer\Desktop\Texode Task1\InfoCards.WebApi\bin\Debug\netcoreapp3.1\AutoMapper.dll
+C:\Users\Furer\Desktop\Texode Task1\InfoCards.WebApi\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\Furer\Desktop\Texode Task1\InfoCards.WebApi\bin\Debug\netcoreapp3.1\MediatR.dll
+C:\Users\Furer\Desktop\Texode Task1\InfoCards.WebApi\bin\Debug\netcoreapp3.1\MediatR.Contracts.dll
+C:\Users\Furer\Desktop\Texode Task1\InfoCards.WebApi\bin\Debug\netcoreapp3.1\MediatR.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\Furer\Desktop\Texode Task1\InfoCards.WebApi\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Furer\Desktop\Texode Task1\InfoCards.WebApi\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\Furer\Desktop\Texode Task1\InfoCards.WebApi\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\Furer\Desktop\Texode Task1\InfoCards.WebApi\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+C:\Users\Furer\Desktop\Texode Task1\InfoCards.WebApi\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Furer\Desktop\Texode Task1\InfoCards.WebApi\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Furer\Desktop\Texode Task1\InfoCards.WebApi\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Furer\Desktop\Texode Task1\InfoCards.WebApi\bin\Debug\netcoreapp3.1\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Furer\Desktop\Texode Task1\InfoCards.WebApi\bin\Debug\netcoreapp3.1\InfoCards.Api.Contract.dll
+C:\Users\Furer\Desktop\Texode Task1\InfoCards.WebApi\bin\Debug\netcoreapp3.1\InfoCards.Api.Contract.pdb
+C:\Users\Furer\Desktop\Texode Task1\InfoCards.WebApi\obj\Debug\netcoreapp3.1\InfoCards.WebApi.csproj.AssemblyReference.cache
+C:\Users\Furer\Desktop\Texode Task1\InfoCards.WebApi\obj\Debug\netcoreapp3.1\InfoCards.WebApi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Furer\Desktop\Texode Task1\InfoCards.WebApi\obj\Debug\netcoreapp3.1\InfoCards.WebApi.AssemblyInfoInputs.cache
+C:\Users\Furer\Desktop\Texode Task1\InfoCards.WebApi\obj\Debug\netcoreapp3.1\InfoCards.WebApi.AssemblyInfo.cs
+C:\Users\Furer\Desktop\Texode Task1\InfoCards.WebApi\obj\Debug\netcoreapp3.1\InfoCards.WebApi.csproj.CoreCompileInputs.cache
+C:\Users\Furer\Desktop\Texode Task1\InfoCards.WebApi\obj\Debug\netcoreapp3.1\InfoCards.WebApi.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Furer\Desktop\Texode Task1\InfoCards.WebApi\obj\Debug\netcoreapp3.1\InfoCards.WebApi.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Furer\Desktop\Texode Task1\InfoCards.WebApi\obj\Debug\netcoreapp3.1\staticwebassets\InfoCards.WebApi.StaticWebAssets.Manifest.cache
+C:\Users\Furer\Desktop\Texode Task1\InfoCards.WebApi\obj\Debug\netcoreapp3.1\staticwebassets\InfoCards.WebApi.StaticWebAssets.xml
+C:\Users\Furer\Desktop\Texode Task1\InfoCards.WebApi\obj\Debug\netcoreapp3.1\scopedcss\bundle\InfoCards.WebApi.styles.css
+C:\Users\Furer\Desktop\Texode Task1\InfoCards.WebApi\obj\Debug\netcoreapp3.1\InfoCards.WebApi.RazorTargetAssemblyInfo.cache
+C:\Users\Furer\Desktop\Texode Task1\InfoCards.WebApi\obj\Debug\netcoreapp3.1\InfoCards.WebApi.csproj.CopyComplete
+C:\Users\Furer\Desktop\Texode Task1\InfoCards.WebApi\obj\Debug\netcoreapp3.1\InfoCards.WebApi.dll
+C:\Users\Furer\Desktop\Texode Task1\InfoCards.WebApi\obj\Debug\netcoreapp3.1\InfoCards.WebApi.pdb
+C:\Users\Furer\Desktop\Texode Task1\InfoCards.WebApi\obj\Debug\netcoreapp3.1\InfoCards.WebApi.genruntimeconfig.cache
