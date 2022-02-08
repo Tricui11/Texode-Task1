@@ -48,7 +48,6 @@ namespace InfoCards.ClientApp {
 
     private void ConfigureWebServices(ServiceCollection services) {
       services.AddTransient<IWebInfoCardService, WebInfoCardService>();
-      services.AddTransient<IWebWeatherForecatService, WebWeatherForecatService>();
     }
 
     private void OnStartup(object sender, StartupEventArgs e) {

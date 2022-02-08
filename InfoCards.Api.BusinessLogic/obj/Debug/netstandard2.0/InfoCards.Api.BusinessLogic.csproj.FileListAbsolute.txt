@@ -1,0 +1,5 @@
+C:\Users\Furer\Desktop\Texode Task1\InfoCards.Api.BusinessLogic\obj\Debug\netstandard2.0\InfoCards.Api.BusinessLogic.csproj.AssemblyReference.cache
+C:\Users\Furer\Desktop\Texode Task1\InfoCards.Api.BusinessLogic\obj\Debug\netstandard2.0\InfoCards.Api.BusinessLogic.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Furer\Desktop\Texode Task1\InfoCards.Api.BusinessLogic\obj\Debug\netstandard2.0\InfoCards.Api.BusinessLogic.AssemblyInfoInputs.cache
+C:\Users\Furer\Desktop\Texode Task1\InfoCards.Api.BusinessLogic\obj\Debug\netstandard2.0\InfoCards.Api.BusinessLogic.AssemblyInfo.cs
+C:\Users\Furer\Desktop\Texode Task1\InfoCards.Api.BusinessLogic\obj\Debug\netstandard2.0\InfoCards.Api.BusinessLogic.csproj.CoreCompileInputs.cache

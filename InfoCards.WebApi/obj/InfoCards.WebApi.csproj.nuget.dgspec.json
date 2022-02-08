@@ -4,6 +4,70 @@
     "C:\\Users\\Furer\\Desktop\\Texode Task1\\InfoCards.WebApi\\InfoCards.WebApi.csproj": {}
   },
   "projects": {
+    "C:\\Users\\Furer\\Desktop\\Texode Task1\\InfoCards.Api.BusinessLogic\\InfoCards.Api.BusinessLogic.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Furer\\Desktop\\Texode Task1\\InfoCards.Api.BusinessLogic\\InfoCards.Api.BusinessLogic.csproj",
+        "projectName": "InfoCards.Api.BusinessLogic",
+        "projectPath": "C:\\Users\\Furer\\Desktop\\Texode Task1\\InfoCards.Api.BusinessLogic\\InfoCards.Api.BusinessLogic.csproj",
+        "packagesPath": "C:\\Users\\Furer\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Furer\\Desktop\\Texode Task1\\InfoCards.Api.BusinessLogic\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Furer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "C:\\Users\\Furer\\Desktop\\Texode Task1\\InfoCards.Api.Contract\\InfoCards.Api.Contract.csproj": {
+                "projectPath": "C:\\Users\\Furer\\Desktop\\Texode Task1\\InfoCards.Api.Contract\\InfoCards.Api.Contract.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[11.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "C:\\Users\\Furer\\Desktop\\Texode Task1\\InfoCards.Api.Contract\\InfoCards.Api.Contract.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -40,6 +104,14 @@
         "netstandard2.0": {
           "targetAlias": "netstandard2.0",
           "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
             "NETStandard.Library": {
               "suppressParent": "All",
               "target": "Package",
@@ -75,16 +147,19 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp3.1"
+          "net5.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
+          "net5.0": {
+            "targetAlias": "net5.0",
             "projectReferences": {
+              "C:\\Users\\Furer\\Desktop\\Texode Task1\\InfoCards.Api.BusinessLogic\\InfoCards.Api.BusinessLogic.csproj": {
+                "projectPath": "C:\\Users\\Furer\\Desktop\\Texode Task1\\InfoCards.Api.BusinessLogic\\InfoCards.Api.BusinessLogic.csproj"
+              },
               "C:\\Users\\Furer\\Desktop\\Texode Task1\\InfoCards.Api.Contract\\InfoCards.Api.Contract.csproj": {
                 "projectPath": "C:\\Users\\Furer\\Desktop\\Texode Task1\\InfoCards.Api.Contract\\InfoCards.Api.Contract.csproj"
               }
@@ -98,24 +173,20 @@
         }
       },
       "frameworks": {
-        "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
+        "net5.0": {
+          "targetAlias": "net5.0",
           "dependencies": {
             "AutoMapper": {
               "target": "Package",
               "version": "[11.0.1, )"
             },
-            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
-              "target": "Package",
-              "version": "[11.0.0, )"
-            },
             "MediatR": {
               "target": "Package",
-              "version": "[10.0.1, )"
+              "version": "[9.0.0, )"
             },
             "MediatR.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
-              "version": "[10.0.1, )"
+              "version": "[9.0.0, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",

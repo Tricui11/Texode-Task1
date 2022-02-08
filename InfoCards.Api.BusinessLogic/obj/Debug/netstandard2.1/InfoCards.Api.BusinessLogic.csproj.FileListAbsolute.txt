@@ -1,0 +1,13 @@
+C:\Users\Furer\Desktop\Texode Task1\InfoCards.Api.BusinessLogic\bin\Debug\netstandard2.1\InfoCards.Api.BusinessLogic.deps.json
+C:\Users\Furer\Desktop\Texode Task1\InfoCards.Api.BusinessLogic\bin\Debug\netstandard2.1\InfoCards.Api.BusinessLogic.dll
+C:\Users\Furer\Desktop\Texode Task1\InfoCards.Api.BusinessLogic\bin\Debug\netstandard2.1\InfoCards.Api.BusinessLogic.pdb
+C:\Users\Furer\Desktop\Texode Task1\InfoCards.Api.BusinessLogic\bin\Debug\netstandard2.1\InfoCards.Api.Contract.dll
+C:\Users\Furer\Desktop\Texode Task1\InfoCards.Api.BusinessLogic\bin\Debug\netstandard2.1\InfoCards.Api.Contract.pdb
+C:\Users\Furer\Desktop\Texode Task1\InfoCards.Api.BusinessLogic\obj\Debug\netstandard2.1\InfoCards.Api.BusinessLogic.csproj.AssemblyReference.cache
+C:\Users\Furer\Desktop\Texode Task1\InfoCards.Api.BusinessLogic\obj\Debug\netstandard2.1\InfoCards.Api.BusinessLogic.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Furer\Desktop\Texode Task1\InfoCards.Api.BusinessLogic\obj\Debug\netstandard2.1\InfoCards.Api.BusinessLogic.AssemblyInfoInputs.cache
+C:\Users\Furer\Desktop\Texode Task1\InfoCards.Api.BusinessLogic\obj\Debug\netstandard2.1\InfoCards.Api.BusinessLogic.AssemblyInfo.cs
+C:\Users\Furer\Desktop\Texode Task1\InfoCards.Api.BusinessLogic\obj\Debug\netstandard2.1\InfoCards.Api.BusinessLogic.csproj.CoreCompileInputs.cache
+C:\Users\Furer\Desktop\Texode Task1\InfoCards.Api.BusinessLogic\obj\Debug\netstandard2.1\InfoCards.Api.BusinessLogic.csproj.CopyComplete
+C:\Users\Furer\Desktop\Texode Task1\InfoCards.Api.BusinessLogic\obj\Debug\netstandard2.1\InfoCards.Api.BusinessLogic.dll
+C:\Users\Furer\Desktop\Texode Task1\InfoCards.Api.BusinessLogic\obj\Debug\netstandard2.1\InfoCards.Api.BusinessLogic.pdb

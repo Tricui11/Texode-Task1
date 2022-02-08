@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InfoCards.Api.Contract", "I
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InfoCards.ClientApp", "InfoCards.ClientApp\InfoCards.ClientApp.csproj", "{97CFA994-1775-4B08-AED3-EF2FBD1DF894}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InfoCards.Api.BusinessLogic", "InfoCards.Api.BusinessLogic\InfoCards.Api.BusinessLogic.csproj", "{E0F20F34-041D-49F4-9E60-238EE2EB146E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{97CFA994-1775-4B08-AED3-EF2FBD1DF894}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{97CFA994-1775-4B08-AED3-EF2FBD1DF894}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{97CFA994-1775-4B08-AED3-EF2FBD1DF894}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0F20F34-041D-49F4-9E60-238EE2EB146E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0F20F34-041D-49F4-9E60-238EE2EB146E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0F20F34-041D-49F4-9E60-238EE2EB146E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0F20F34-041D-49F4-9E60-238EE2EB146E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

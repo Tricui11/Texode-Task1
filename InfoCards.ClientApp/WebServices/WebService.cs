@@ -1,12 +1,9 @@
-﻿using InfoCards.ClientApp.WebServices.Abstract;
-using Newtonsoft.Json;
-using System;
-using System.IO;
-using System.Net;
+﻿using System;
 using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
-using System.Windows;
+using InfoCards.ClientApp.WebServices.Abstract;
+using Newtonsoft.Json;
 
 namespace InfoCards.ClientApp.WebServices {
   public abstract class WebService : IWebService {
@@ -53,6 +50,7 @@ namespace InfoCards.ClientApp.WebServices {
 
       }
       catch (Exception e) {
+
       }
 
       return default;

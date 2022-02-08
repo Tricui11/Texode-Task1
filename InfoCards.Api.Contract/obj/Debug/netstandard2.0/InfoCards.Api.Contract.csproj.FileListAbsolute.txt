@@ -1,7 +1,6 @@
 C:\Users\Furer\Desktop\Texode Task1\InfoCards.Api.Contract\bin\Debug\netstandard2.0\InfoCards.Api.Contract.deps.json
 C:\Users\Furer\Desktop\Texode Task1\InfoCards.Api.Contract\bin\Debug\netstandard2.0\InfoCards.Api.Contract.dll
 C:\Users\Furer\Desktop\Texode Task1\InfoCards.Api.Contract\bin\Debug\netstandard2.0\InfoCards.Api.Contract.pdb
-C:\Users\Furer\Desktop\Texode Task1\InfoCards.Api.Contract\obj\Debug\netstandard2.0\InfoCards.Api.Contract.csproj.AssemblyReference.cache
 C:\Users\Furer\Desktop\Texode Task1\InfoCards.Api.Contract\obj\Debug\netstandard2.0\InfoCards.Api.Contract.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Furer\Desktop\Texode Task1\InfoCards.Api.Contract\obj\Debug\netstandard2.0\InfoCards.Api.Contract.AssemblyInfoInputs.cache
 C:\Users\Furer\Desktop\Texode Task1\InfoCards.Api.Contract\obj\Debug\netstandard2.0\InfoCards.Api.Contract.AssemblyInfo.cs
