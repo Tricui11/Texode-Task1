@@ -15,7 +15,8 @@ namespace InfoCards.Api.BusinessLogic.Services {
     public async Task<IEnumerable<InfoCardDto>> GetAllAsync() {
       try {
         var xdoc = XDocument.Load(Constants.PhonesPath);
-        var allXmlInfoCards = xdoc.Root.Elements();
+        var metadata = xdoc.Descendants().First(x => x.Name == "metadata");
+        var allXmlInfoCards = metadata.Elements();
         var unDeletedXmlInfoCards = allXmlInfoCards.Where(x => x.Element("IsDeleted").Value == "0");
         var dtos = new List<InfoCardDto>();
         foreach (var el in unDeletedXmlInfoCards) {
@@ -25,12 +26,12 @@ namespace InfoCards.Api.BusinessLogic.Services {
           ic.ImageData = Convert.FromBase64String(el.Element("ImageData").Value);
           dtos.Add(ic);
         }
+
         return dtos;
       }
       catch (Exception ex) {
+        return null;
       }
-
-      return null;
     }
   }
 }

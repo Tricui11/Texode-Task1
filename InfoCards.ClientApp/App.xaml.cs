@@ -36,9 +36,8 @@ namespace InfoCards.ClientApp {
     }
 
     private void ConfigureServices(ServiceCollection services) {
-      //     var webApiUrl = ConfigurationManager.AppSettings["AutoStringWebApiLocalAddress"];
       string webApiUrl = "http://localhost:48829/";
-      services.AddSingleton<WebApiHttpClient>(x => new WebApiHttpClient(webApiUrl));
+      services.AddSingleton(x => new WebApiHttpClient(webApiUrl));
       services.AddSingleton<MainWindow>();
       services.AddSingleton<MainWindowViewModel>();
 

@@ -1,4 +1,5 @@
 ﻿using System;
+using System.ComponentModel.DataAnnotations;
 using System.IO;
 using System.Threading.Tasks;
 using System.Windows;
@@ -7,10 +8,9 @@ using InfoCards.Api.Contract.DTOs;
 using InfoCards.Api.Contract.Request;
 using InfoCards.ClientApp.ViewModels.Helpers;
 using InfoCards.ClientApp.WebServices.Abstract;
-using Microsoft.Win32;
 
 namespace InfoCards.ClientApp.ViewModels {
-  class CreateInfoCardViewModel : BaseViewModel {
+  class CreateInfoCardViewModel : ValidatableViewModel {
     private readonly IWebInfoCardService _webInfoCardService;
 
 
@@ -21,13 +21,21 @@ namespace InfoCards.ClientApp.ViewModels {
       CreateCommand = new AsyncRelayCommand(CreateAsync);
     }
 
+    [Required]
     public string Name {
       get => Get<string>();
       set => Set(value);
     }
 
     private byte[] ImageData { get; set; }
-    public InfoCardDto CreatedInfoCard { get; }
+    [Required]
+
+    public string ImagePath {
+      get => Get<string>();
+      set => Set(value);
+    }
+
+    public InfoCardDto CreatedInfoCard { get; private set; }
 
     public event EventHandler Closing;
 
@@ -36,13 +44,13 @@ namespace InfoCards.ClientApp.ViewModels {
     public ICommand CreateCommand { get; }
 
     private void SelectImage() {
-      var openFileDialog = new OpenFileDialog();
-      if (openFileDialog.ShowDialog() == false)
+      ImagePath = BitmapImageHelper.OpenImageFromFileAndReturnPath();
+      if (string.IsNullOrEmpty(ImagePath)) {
         return;
-      // получаем выбранный файл
-      string filePath = openFileDialog.FileName;
+      }
+
       try {
-        ImageData = File.ReadAllBytes(filePath);
+        ImageData = File.ReadAllBytes(ImagePath);
       }
       catch (Exception ex) {
         MessageBox.Show(ex.ToString());
@@ -50,12 +58,19 @@ namespace InfoCards.ClientApp.ViewModels {
     }
 
     private async Task CreateAsync() {
-      var request = new CreateInfoCardRequest(Name, ImageData);
-      var response = await _webInfoCardService.CreateAsync(request);
-      if (response == null) {
-        MessageBox.Show("Произошла ошибка во время создания карточки.");
+      if (!ValidateViewModel()) {
         return;
       }
+
+      var request = new CreateInfoCardRequest(Name, ImageData);
+      var response = await _webInfoCardService.CreateAsync(request);
+      if (response == null || response.HasError) {
+        string errorMessage = "Произошла ошибка во время создания карточки" + Environment.NewLine + response.ErrorMessage;
+        MessageBox.Show(errorMessage);
+        return;
+      }
+
+      CreatedInfoCard = response.CreatedEntity;
 
       Closing?.Invoke(null, null);
     }

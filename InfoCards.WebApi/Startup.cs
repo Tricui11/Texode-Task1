@@ -1,4 +1,3 @@
-using AutoMapper;
 using InfoCards.Api.BusinessLogic.Abstract;
 using InfoCards.Api.BusinessLogic.RequestHandlers;
 using InfoCards.Api.BusinessLogic.Services;
@@ -25,13 +24,7 @@ namespace InfoCards.WebApi {
       services.AddMediatR(typeof(CreateInfoCardRequest), typeof(CreateInfoCardRequestHandler));
 
       services.AddTransient<IInfoCardsService, InfoCardsService>();
-
-      var mapperConfig = new MapperConfiguration(mc => {
-        mc.AddProfile(new MappingProfile());
-      });
-
-      IMapper mapper = mapperConfig.CreateMapper();
-      services.AddSingleton(mapper);
+      services.AddTransient<IInfoCardValidator, InfoCardValidator>();
 
       services.AddSwaggerGen(c => {
         c.CustomSchemaIds(type => type.ToString());

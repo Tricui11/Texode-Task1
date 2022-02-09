@@ -11,7 +11,6 @@ using InfoCards.Api.Contract.Request;
 using InfoCards.ClientApp.ViewModels.Helpers;
 using InfoCards.ClientApp.Views;
 using InfoCards.ClientApp.WebServices.Abstract;
-using Microsoft.Win32;
 
 namespace InfoCards.ClientApp.ViewModels {
   public class MainWindowViewModel : BaseViewModel {
@@ -24,7 +23,10 @@ namespace InfoCards.ClientApp.ViewModels {
       GetAllCommand = new AsyncRelayCommand(GetAllAsync);
       CreateCommand = new AsyncRelayCommand(CreateAsync);
       DeleteCommand = new AsyncRelayCommand(DeleteAsync);
-      SetImageCommand = new AsyncRelayCommand(SetImageAsync);
+      SetImageCommand = new AsyncRelayCommand(SetImageAsync, _ => SelectedInfoCardsToTypeVM.Count() == 1);
+      OpenImageCommand = new ClientCommand(OpenImage);
+
+      GetAllCommand.Execute(null);
     }
     public ObservableCollection<InfoCardGridViewModel> InfoCards { get; } = new ObservableCollection<InfoCardGridViewModel>();
     public InfoCardGridViewModel SelectedInfoCard {
@@ -34,18 +36,16 @@ namespace InfoCards.ClientApp.ViewModels {
 
     public IEnumerable SelectedInfoCards {
       get => _selectedInfoCards;
-      set {
-        _selectedInfoCards = value;
-      }
+      set => _selectedInfoCards = value;
     }
 
-    public IEnumerable<InfoCardGridViewModel> SelectedInfoCardsToTypeVM =>
-        _selectedInfoCards?.OfType<InfoCardGridViewModel>();
+    public IEnumerable<InfoCardGridViewModel> SelectedInfoCardsToTypeVM => _selectedInfoCards?.OfType<InfoCardGridViewModel>();
 
     public ICommand GetAllCommand { get; }
     public ICommand CreateCommand { get; }
     public ICommand DeleteCommand { get; }
     public ICommand SetImageCommand { get; }
+    public ICommand OpenImageCommand { get; }
 
     private async Task GetAllAsync() {
       InfoCards.Clear();
@@ -62,8 +62,11 @@ namespace InfoCards.ClientApp.ViewModels {
       var win = new CreateInfoCardView();
       vm.Closing += win.ToClose;
       win.DataContext = vm;
-      win.WindowStartupLocation = WindowStartupLocation.CenterScreen;
       win.ShowDialog();
+      if (vm.CreatedInfoCard != null) {
+        var createdInfoCardVM = new InfoCardGridViewModel(vm.CreatedInfoCard, _webInfoCardService);
+        InfoCards.Add(createdInfoCardVM);
+      }
     }
 
     private async Task DeleteAsync() {
@@ -74,26 +77,39 @@ namespace InfoCards.ClientApp.ViewModels {
         MessageBox.Show("Произошла ошибка во время удаления карточек.");
         return;
       }
+      foreach (int id in ids) {
+        var icToRemove = InfoCards.Single(x => x.Id == id);
+        InfoCards.Remove(icToRemove);
+      }
     }
 
     private async Task SetImageAsync() {
-      var openFileDialog = new OpenFileDialog();
-      if (openFileDialog.ShowDialog() == false)
+      string filePath = BitmapImageHelper.OpenImageFromFileAndReturnPath();
+      if (string.IsNullOrEmpty(filePath)) {
         return;
-      // получаем выбранный файл
-      string filePath = openFileDialog.FileName;
+      }
+
       try {
         var imageData = File.ReadAllBytes(filePath);
-        var request = new UpdateInfoCardImageDataRequest(SelectedInfoCard.Id, imageData);
-        var response = Task.Run(async () => await _webInfoCardService.UpdateImageDataAsync(request));
-        if (response == null) {
+        var selectedInfoCard = SelectedInfoCard;
+        var request = new UpdateInfoCardImageDataRequest(selectedInfoCard.Id, imageData);
+        var response = await _webInfoCardService.UpdateImageDataAsync(request);
+        if (response == false) {
           MessageBox.Show("Произошла ошибка во время обновления изображения.");
           return;
         }
+        selectedInfoCard.ImageData = imageData;
       }
       catch (Exception ex) {
         MessageBox.Show(ex.ToString());
       }
+    }
+
+    private void OpenImage() {
+      var vm = new BitmapImageViewModel(SelectedInfoCard.Image);
+      var win = new BitmapImageView();
+      win.DataContext = vm;
+      win.Show();
     }
   }
 }

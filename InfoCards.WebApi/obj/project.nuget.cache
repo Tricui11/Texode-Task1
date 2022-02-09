@@ -1,13 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "PXj/7+LvtpW/ea1rtbYlbgHMsg+V7O6TFEnjGfACiQhuCJmDfp6EJ5pj9ZEX98D/bAKHgGSiKxZeicmT/Ak3eA==",
+  "dgSpecHash": "yCihNK7/yc5EDP6g7hcEHPVc4pBuPQe6E8pFaOHO+H9X9PJWg2zqTwn3vr1LMcYF68N2w6fmRjnqiLxhoTucfw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Furer\\Desktop\\Texode Task1\\InfoCards.WebApi\\InfoCards.WebApi.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Furer\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
     "C:\\Users\\Furer\\.nuget\\packages\\mediatr\\9.0.0\\mediatr.9.0.0.nupkg.sha512",
     "C:\\Users\\Furer\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\9.0.0\\mediatr.extensions.microsoft.dependencyinjection.9.0.0.nupkg.sha512",
-    "C:\\Users\\Furer\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\Furer\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\Furer\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\2.0.0\\microsoft.extensions.dependencyinjection.abstractions.2.0.0.nupkg.sha512",
     "C:\\Users\\Furer\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",

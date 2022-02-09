@@ -1,13 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "OFri5TW5LSDX7Rl9xwZzAgo2KhgyS+Xg3U8Z2jKkM1GCjIihyueRiCtVx4M9gnc/xdYP7YjlOEZiGi+Mw3nIeA==",
+  "dgSpecHash": "ybgIgvSt/e7g/l6jyf3q3+SXvrSvDf5mWsAWTplvzN68yp04ZdKNDEru3OPm5kFcSAa5R++d0roLSKrarWcolw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Furer\\Desktop\\Texode Task1\\InfoCards.Api.BusinessLogic\\InfoCards.Api.BusinessLogic.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Furer\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
     "C:\\Users\\Furer\\.nuget\\packages\\mediatr\\9.0.0\\mediatr.9.0.0.nupkg.sha512",
     "C:\\Users\\Furer\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\9.0.0\\mediatr.extensions.microsoft.dependencyinjection.9.0.0.nupkg.sha512",
-    "C:\\Users\\Furer\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\Furer\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\2.0.0\\microsoft.extensions.dependencyinjection.abstractions.2.0.0.nupkg.sha512"
   ],
   "logs": []

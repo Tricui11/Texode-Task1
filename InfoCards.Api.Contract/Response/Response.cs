@@ -13,7 +13,6 @@ namespace InfoCards.Api.Contract.Response {
 
       public bool Success { get; set; }
       public string ErrorMessage { get; set; }
-      public string InnerExceptionMsg { get; set; }
       public bool HasError => !string.IsNullOrEmpty(ErrorMessage);
 
       public static Response Successful { get; } = new Response { Success = true };

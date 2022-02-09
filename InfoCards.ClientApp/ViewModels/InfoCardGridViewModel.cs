@@ -3,6 +3,7 @@ using System.Windows;
 using System.Windows.Media.Imaging;
 using InfoCards.Api.Contract.DTOs;
 using InfoCards.Api.Contract.Request;
+using InfoCards.ClientApp.ViewModels.Helpers;
 using InfoCards.ClientApp.WebServices.Abstract;
 
 namespace InfoCards.ClientApp.ViewModels {
@@ -19,28 +20,31 @@ namespace InfoCards.ClientApp.ViewModels {
     public string Name {
       get => _model.Name;
       set {
-        _model.Name = value;
+        if (_model.Name == value) {
+          return;
+        }
 
-        var request = new UpdateInfoCardNameRequest(Id, Name);
+        var request = new UpdateInfoCardNameRequest(Id, value);
         var response = Task.Run(async() =>  await _webInfoCardService.UpdateNameAsync(request));
-        if (response == null) { 
+        if (response == null || response.Result == false) { 
           MessageBox.Show("Произошла ошибка во время обновления имени.");
           return;
         }
+
+        _model.Name = value;
         OnPropertyChanged();
       }
     }
 
-    public byte[] ImageData => _model.ImageData;
-
-    public BitmapImage Image => ToImage(_model.ImageData);
-
-    public BitmapImage ToImage(byte[] array) {
-      BitmapImage image = new BitmapImage();
-      image.BeginInit();
-      image.StreamSource = new System.IO.MemoryStream(array);
-      image.EndInit();
-      return image;
+    public byte[] ImageData {
+      get => _model.ImageData;
+      set {
+        _model.ImageData = value;
+        OnPropertyChanged();
+        OnPropertyChanged(nameof(Image));
+      }
     }
+
+    public BitmapImage Image => BitmapImageHelper.GetFromByteArray(_model.ImageData);
   }
 }

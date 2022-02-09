@@ -18,11 +18,12 @@ namespace InfoCards.Api.BusinessLogic.RequestHandlers {
         var infoCardToUpdate = xdoc.Root.Elements().Single(x => request.Id == int.Parse(x.Element("Id").Value));
         infoCardToUpdate.Element("ImageData").Value = Convert.ToBase64String(request.ImageData);
         xdoc.Save(Constants.PhonesPath);
-      }
-      catch (Exception ex) {
-      }
 
-      return true;
+        return true;
+      }
+      catch (Exception) {
+        return false;
+      }
     }
   }
 }

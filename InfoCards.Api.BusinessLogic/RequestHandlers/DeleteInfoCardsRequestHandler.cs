@@ -21,11 +21,12 @@ namespace InfoCards.Api.BusinessLogic.RequestHandlers {
           el.Element("IsDeleted").Value = "1";
         }
         xdoc.Save(Constants.PhonesPath);
-      }
-      catch (Exception ex) {
-      }
 
-      return true;
+        return true;
+      }
+      catch (Exception) {
+        return false;
+      }
     }
   }
 }

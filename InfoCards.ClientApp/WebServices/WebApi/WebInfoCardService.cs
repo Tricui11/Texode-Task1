@@ -2,6 +2,7 @@
 using System.Threading.Tasks;
 using InfoCards.Api.Contract.DTOs;
 using InfoCards.Api.Contract.Request;
+using InfoCards.Api.Contract.Response;
 using InfoCards.ClientApp.WebServices.Abstract;
 using InfoCards.ClientApp.WebServices.WebClient;
 
@@ -14,8 +15,8 @@ namespace InfoCards.ClientApp.WebServices.WebApi {
       return carrierDtos;
     }
 
-    public async Task<int> CreateAsync(CreateInfoCardRequest request) {
-      var response = await PostAsync<CreateInfoCardRequest, int>($"{BaseUrl}/Create", request);
+    public async Task<CreateEntityResponse<InfoCardDto>> CreateAsync(CreateInfoCardRequest request) {
+      var response = await PostAsync<CreateInfoCardRequest, CreateEntityResponse<InfoCardDto>>($"{BaseUrl}/Create", request);
       return response;
     }
 

@@ -3,19 +3,18 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:InfoCards.ClientApp.Views"
-        mc:Ignorable="d" Background="AliceBlue"
-        Title="Создание информационной карточки" Height="200" Width="350">
+        mc:Ignorable="d" Background="AliceBlue" WindowStartupLocation="CenterScreen"
+        Title="Создание информационной карточки" Height="200" Width="450" ResizeMode="NoResize">
     <StackPanel>
         <StackPanel Margin="30, 20" Orientation="Horizontal">
-            <TextBlock Text="Название" Width="110"/>
-            <TextBox Text="{Binding Name}" Width="140"/>
+            <TextBlock Text="Название" Width="110" FontWeight="Bold"/>
+            <TextBox Text="{Binding Name}" Width="240" MaxLength="240"/>
         </StackPanel>
         <StackPanel Margin="30, 0" Orientation="Horizontal">
-            <TextBlock Text="Изображение" Width="110"/>
-            <TextBlock Text="{Binding ImagePath}" Width="140"/>
+            <TextBlock Text="Изображение" Width="110" FontWeight="Bold"/>
+            <TextBox Text="{Binding ImagePath}" Width="240" IsReadOnly="True" Background="Yellow"/>
         </StackPanel>
-        <Button Margin="100, 10" Content="Select" Width="60" Command="{Binding SelectImageCommand}"/>
-        <Button Margin="0, 20" Width="120" Content="Create" Command="{Binding CreateCommand}"/>
+        <Button Margin="100, 10" Content="Выбрать" Width="60" Command="{Binding SelectImageCommand}"/>
+        <Button Margin="0, 20" Width="120" Content="Создать" Command="{Binding CreateCommand}"/>
     </StackPanel>
 </Window>

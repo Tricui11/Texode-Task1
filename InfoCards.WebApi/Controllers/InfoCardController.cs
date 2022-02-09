@@ -3,6 +3,7 @@ using System.Threading.Tasks;
 using InfoCards.Api.BusinessLogic.Abstract;
 using InfoCards.Api.Contract.DTOs;
 using InfoCards.Api.Contract.Request;
+using InfoCards.Api.Contract.Response;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
@@ -31,7 +32,7 @@ namespace InfoCards.WebApi.Controllers {
     }
 
     [HttpPost("Create")]
-    public async Task<int> CreateInfoCard([FromBody] CreateInfoCardRequest request) {
+    public async Task<CreateEntityResponse<InfoCardDto>> CreateInfoCard([FromBody] CreateInfoCardRequest request) {
       var response = await _mediator.Send(request);
       return response;
     }
@@ -49,7 +50,7 @@ namespace InfoCards.WebApi.Controllers {
     }
 
     [HttpPut("Update/ImageData")]
-    public async Task<bool> UpdateName([FromBody] UpdateInfoCardImageDataRequest request) {
+    public async Task<bool> UpdateImageData([FromBody] UpdateInfoCardImageDataRequest request) {
       var response = await _mediator.Send(request);
       return response;
     }

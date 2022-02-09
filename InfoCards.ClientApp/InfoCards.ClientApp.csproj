@@ -57,7 +57,11 @@
       <HintPath>..\InfoCards.WebApi\packages\Newtonsoft.Json.13.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.Annotations, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.ComponentModel.Annotations.5.0.0\lib\net461\System.ComponentModel.Annotations.dll</HintPath>
+    </Reference>
     <Reference Include="System.ComponentModel.Composition" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Data" />
     <Reference Include="System.IO, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
       <HintPath>..\InfoCards.WebApi\packages\System.IO.4.3.0\lib\net462\System.IO.dll</HintPath>
@@ -136,21 +140,30 @@
       <SubType>Designer</SubType>
     </ApplicationDefinition>
     <Compile Include="ViewModels\BaseViewModel.cs" />
+    <Compile Include="ViewModels\BitmapImageViewModel.cs" />
     <Compile Include="ViewModels\CreateInfoCardViewModel.cs" />
     <Compile Include="ViewModels\Helpers\Behavior\DataGridSelectedItemsBehavior.cs" />
+    <Compile Include="ViewModels\Helpers\BitmapImageHelper.cs" />
     <Compile Include="ViewModels\Helpers\ClientCommand.cs" />
     <Compile Include="ViewModels\InfoCardGridViewModel.cs" />
     <Compile Include="ViewModels\MainWindowViewModel.cs" />
+    <Compile Include="ViewModels\ValidatableViewModel.cs" />
+    <Compile Include="Views\BitmapImageView.xaml.cs">
+      <DependentUpon>BitmapImageView.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Views\CreateInfoCardView.xaml.cs">
       <DependentUpon>CreateInfoCardView.xaml</DependentUpon>
     </Compile>
     <Compile Include="WebServices\Abstract\IWebService.cs" />
     <Compile Include="WebServices\Abstract\IWebInfoCardService.cs" />
-    <Compile Include="WebServices\Abstract\IWebWeatherForecatService.cs" />
     <Compile Include="WebServices\WebApi\WebInfoCardService.cs" />
     <Compile Include="WebServices\WebClient\WebApiHttpClient.cs" />
     <Compile Include="WebServices\WebService.cs" />
-    <Page Include="MainWindow.xaml">
+    <Page Include="Views\BitmapImageView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
@@ -158,7 +171,7 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="MainWindow.xaml.cs">
+    <Compile Include="Views\MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>

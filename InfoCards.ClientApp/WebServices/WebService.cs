@@ -33,8 +33,7 @@ namespace InfoCards.ClientApp.WebServices {
         }
 
       }
-      catch (Exception e) {
-
+      catch (Exception) {
       }
 
       return default;
@@ -49,8 +48,7 @@ namespace InfoCards.ClientApp.WebServices {
         }
 
       }
-      catch (Exception e) {
-
+      catch (Exception) {
       }
 
       return default;
@@ -65,7 +63,7 @@ namespace InfoCards.ClientApp.WebServices {
         }
 
       }
-      catch (Exception e) {
+      catch (Exception) {
       }
 
       return default;
@@ -88,7 +86,7 @@ namespace InfoCards.ClientApp.WebServices {
         }
 
       }
-      catch (Exception e) {
+      catch (Exception) {
       }
 
       return default;
